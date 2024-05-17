@@ -15,8 +15,8 @@ CNN_model_folder=./SegModels/CNN/
 # input data
 subject_ID=101410
 
-input_folder=./TestData/${subject_ID}/
-output_folder=./TestData/${subject_ID}/DeepWMAOutput
+input_folder=./TestData/101410/
+output_folder=./TestData/101410/DeepWMAOutput
 mkdir $output_folder
 
 subject_b0=${input_folder}/${subject_ID}-dwi_meanb0.nrrd
